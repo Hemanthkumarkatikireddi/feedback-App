@@ -1,0 +1,111 @@
+/* Write your CSS code here. */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.main-container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.content-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #ffff;
+  border-radius: 10px;
+  width: 80%;
+}
+.image-container {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  justify-content: center;
+  width: 80%;
+  align-items: center;
+}
+li {
+  margin: 10px;
+  list-style: none;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.emoji-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+  margin: 8px;
+  border: 0px;
+  width: 50px;
+  background-color: transparent;
+  justify-content: space-between;
+}
+.emoji {
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+}
+.heading {
+  display: flex;
+  font-family: Roboto;
+  font-size: 8px;
+}
+.description {
+  font-family: Roboto;
+  padding: 10px 15px;
+}
+@media screen and (min-width: 300px) {
+  .heading {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 568px) {
+  .heading {
+    font-size: 16px;
+  }
+  .emoji {
+    width: 80%;
+    height: 80%;
+    margin: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 25px;
+  }
+  .emoji {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+  }
+}
+@media screen and (min-width: 968px) {
+  .heading {
+    font-size: 35px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .heading {
+    font-size: 45px;
+  }
+}
+.love-emoji {
+  height: 40px;
+  margin: 10px;
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
