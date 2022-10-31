@@ -100,6 +100,6 @@ Use these files to complete the implementation:
 
 > ### _Things to Keep in Mind_
 >
-> - All components you implement should go in the `src/components` directory.
+
 
 > - **Do not remove the pre-filled code**
